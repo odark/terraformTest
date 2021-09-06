@@ -18,4 +18,5 @@ resource "aws_instance" "web" {
   instance_type = "t2.micro"
   tags = {
     Name = "demo-branch"
+  }
 }
