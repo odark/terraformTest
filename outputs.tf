@@ -1,5 +1,5 @@
 output "ec2_name" {
-    value = "${aws_instance.web.tags.name}"
+    value = "${aws_instance.web.tags.Name}"
 }
 
 output "ec2_id" {
