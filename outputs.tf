@@ -1,7 +1,7 @@
-output "address" {
-    value = "${aws_instance.web.address}"
+output "ec2_name" {
+    value = "${aws_instance.web.name}"
 }
 
-output "port" {
-    value = "${aws_inatance.web.port}"
+output "ec2_id" {
+    value = "${aws_inatance.web.id}"
 }
